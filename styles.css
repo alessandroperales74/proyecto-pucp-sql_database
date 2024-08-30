@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/background-pucp.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #0b4580;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0b4580;
+    color: #fff;
+    margin-top: 20px;
+}
+
+img {
+    border: 3px solid #333; /* Borde de 3px de color gris oscuro */
+    border-radius: 15px; /* Esquinas redondeadas de 15px */
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3); /* Sombra de 5px y desenfoque de 20px */
+    padding: 10px; /* Espacio entre la imagen y el borde */
+}
